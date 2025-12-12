@@ -1,0 +1,18 @@
+.flex{
+   height: 250px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1.5s;
+}
+.circle:hover{
+    border-radius: 50%;
+    background-color: #807f7f;
+    transition: 2s;
+}
